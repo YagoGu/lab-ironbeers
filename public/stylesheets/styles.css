@@ -8,11 +8,13 @@ font-family: Arial, Helvetica, sans-serif;
 
 #layout {
     background-color: #2081c3;
+    padding: 2%;
 }
 
 #layout a {
     color: #f7f9f9;
     text-decoration: inherit;
+    margin-left: 1%;
 }
 
 .menu {
@@ -48,4 +50,61 @@ font-family: Arial, Helvetica, sans-serif;
 
 .body-in {
     margin: 5vw;
+}
+
+#glass{
+    width: 30%;
+    margin-left: 35%;
+    padding-top: 2%;
+}
+
+.menu {
+    display: block;
+    width: 25%;
+    text-align: center;
+    margin-top: 5%;
+    padding: 1.5%;
+    border-radius: 0.75vw;
+}
+
+#menu-index{
+    margin-left: 39%;
+}
+
+footer {
+    height: 4vw;
+    color: white;
+    background-color: #0a2c42;
+    padding-top: 1vw;
+    padding-left: 2vw;
+    margin-top: 2vw;
+}
+
+body {
+    margin: 0;
+}
+
+.random {
+    display: flex;
+    flex-direction: row;
+}
+
+.random-img img{
+    height: 30vw;
+    width: auto;
+    margin: 5vw;
+    margin-left: 20vw;
+}
+
+#random-name {
+    font-weight: bolder;
+    font-size: 2vw;
+}
+
+#random-tagline {
+    color: lightgray;
+}
+
+.random-data {
+    margin-right: 20vw;
 }
