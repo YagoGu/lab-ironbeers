@@ -1,0 +1,14 @@
+{{#each data}}
+<div class="product">
+    <div class="product-img">
+        <img src="{{this.image_url}}" alt="image_url">
+    </div>
+    <div class="product-description">
+        <p>{{this.name}}</p>
+        <p>{{this.description}}</p>
+        <p>{{this.tagline}}</p>
+        <p>{{this.food_pairing}}</p>
+        <p>{{this.brewers_tips}}</p>
+    </div>
+</div>
+{{/each}}

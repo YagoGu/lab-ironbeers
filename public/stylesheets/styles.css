@@ -5,3 +5,29 @@ dark-blue: #0a2c42;
 grey: #bfbfbf;
 font-family: Arial, Helvetica, sans-serif;
 */
+
+#layout {
+    background-color: #2081c3;
+}
+
+#layout a {
+    color: #f7f9f9;
+    text-decoration: inherit;
+}
+
+.menu {
+    background-color: #2081c3;
+    color: #f7f9f9;
+    text-decoration: inherit;
+}
+
+.product-img > img {
+    width: auto;
+    height: 20vw;
+}
+
+.product {
+    width: 33%;
+    display: inline-block;
+    flex-direction: row;
+}
