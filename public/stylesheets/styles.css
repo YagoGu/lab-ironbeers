@@ -24,10 +24,28 @@ font-family: Arial, Helvetica, sans-serif;
 .product-img > img {
     width: auto;
     height: 20vw;
+    padding-left: 35%;
 }
 
 .product {
-    width: 33%;
+    width: 28%;
     display: inline-block;
     flex-direction: row;
+    vertical-align: top;
+    margin-left: 5%;
+    margin-top: 5%;
+}
+
+.product-name {
+    font-weight: 900;
+    margin-bottom: 0;
+}
+
+.product-tagline {
+    margin-top: 0;
+    color: lightgray;
+}
+
+.body-in {
+    margin: 5vw;
 }
